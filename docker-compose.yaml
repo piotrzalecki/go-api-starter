@@ -9,6 +9,6 @@ services:
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: password
-      POSTGRES_DB: vueapi
+      POSTGRES_DB: budget-api
     volumes:
       - ./db-data/postgres/:/var/lib/postgresql/data/

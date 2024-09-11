@@ -1,5 +1,5 @@
-DSN="host=localhost port=5432 user=postgres password=password dbname=vueapi sslmode=disable timezone=UTC connect_timeout=5"
-BINARY_NAME=vueapi
+DSN="host=localhost port=5432 user=postgres password=password dbname=budget-api sslmode=disable timezone=UTC connect_timeout=5"
+BINARY_NAME=budget-api
 ENV=development
 
 ## build: Build binary
